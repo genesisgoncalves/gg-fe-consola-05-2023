@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,38 @@
     <title>GameBoy</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="case">
-            <div class="comp" id="pantalla">pantalla</div>
-            <div class="comp" id="logo">logo</div>
-            <div class="comp" id="control">control</div>
+            <div class="comp" id="pantalla">
+                <div class="marco-pantalla">
+                    <div id="marco-izq">
+                        <div id="power"></div>
+                        <div>POWER</div>
+                    </div>
+                    <div id="pantalla-juego"></div>
+                    <div></div>
+                </div>
+                <div id="gameboy">
+                    <img id="logo-gameboy" src="./img/d6qt2ly-5c06d9cc-e979-4d32-bb59-2332cc124348.png" alt="">
+                </div>
+            </div>
+            <div class="comp" id="logo">
+                <div>
+                    <img id="logo-nintendo" src="./img/nintendo-logo-vector-20.png" alt="">
+                </div>
+            </div>
+            <div class="comp" id="control">
+                <div id="cruz"></div>
+                <div id="boton">
+                    <div id="botonA">A</div>
+                    <div id="botonB">B</div>
+                </div>
+            </div>
             <div class="comp" id="audio">audio</div>
         </div>
     </div>
 </body>
+
 </html>

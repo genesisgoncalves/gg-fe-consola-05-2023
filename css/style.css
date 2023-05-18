@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color:rgb(250, 244, 245);
+    background-color:blueviolet;
 }
 
 .container {
@@ -11,19 +11,139 @@ body {
 }
 
 .case {
-    background-color:rgb(92, 43, 226);
+    background-color:rgb(12, 208, 219);
+    border: 3px outset rgb(159, 250, 255);
     width: 300px;
     height: 570px;
     border-radius: 10px 10px 60px 60px;
+    box-shadow: 12px 10px rgb(106, 29, 177);
 }
 
 .comp {
-    background-color: aliceblue;
-    margin: 18px;
+    /* background-color: aliceblue; */
+    margin: 16px;
 }
 
 #pantalla {
-    background-color: rgb(45, 45, 45);
-    height: 220px;
+    background-color: rgb(36, 36, 36);
+    height: 240px;
     border-radius: 10px 10px 20px 20px;
+    border: 3px outset black;
+}
+
+.marco-pantalla {
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 8px;
+}
+
+#marco-izq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(174, 174, 174);
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 7px;
+    margin-left: 8px;
+}
+
+#power {
+    background: linear-gradient(to bottom right, rgb(118, 0, 0), red);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+#pantalla-juego {
+    margin-top: 22px;
+    margin-bottom: 14px;
+    background-color: rgb(161, 173, 137);
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    border: 3px solid rgb(20, 20, 20);
+}
+
+#gameboy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-gameboy {
+    width: 130px;
+}
+
+#logo {
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#logo-nintendo {
+    width: 100px;
+    opacity: 20%;
+}
+
+#control {
+    height: 140px;
+    display: flex;
+}
+
+#cruz {
+    background-color: azure;
+    width: 50%;
+    height: 100%;
+}
+
+#boton {
+    /* background-color: aliceblue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonA {
+    background-color: rgb(59, 59, 59);
+    box-shadow: 2px 2px rgb(27, 27, 27);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonB {
+    background-color: rgb(59, 59, 59);
+    box-shadow: 2px 2px rgb(27, 27, 27);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#audio {
+    height: 90px;
 }
