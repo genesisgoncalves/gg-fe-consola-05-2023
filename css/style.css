@@ -12,11 +12,14 @@ body {
 
 .case {
     background-color:rgb(12, 208, 219);
-    border: 5px outset rgb(159, 250, 255);
+    background-image: url(../img/ave-calvar-NqXqLPhdbvU-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode:overlay;
+    border: 6px outset rgb(107, 255, 255);
     width: 300px;
     height: 570px;
     border-radius: 10px 10px 60px 60px;
-    box-shadow: 12px 10px rgb(106, 29, 177);
+    box-shadow: 22px 14px rgb(106, 29, 177);
 }
 
 .texture {
@@ -26,7 +29,6 @@ body {
 }
 
 .comp {
-    /* background-color: aliceblue; */
     margin: 16px;
 }
 
@@ -34,7 +36,8 @@ body {
     background-color: rgb(36, 36, 36);
     height: 240px;
     border-radius: 10px 10px 20px 20px;
-    border: 4px outset black;
+    border: 5px outset black;
+    box-shadow: 4px 4px rgb(58, 255, 255);
 }
 
 .marco-pantalla {
@@ -93,7 +96,7 @@ body {
 
 #logo-nintendo {
     width: 100px;
-    opacity: 20%;
+    opacity: 30%;
 }
 
 #control {
@@ -102,7 +105,6 @@ body {
 }
 
 #cruz {
-    /* background-color: azure; */
     width: 50%;
     height: 100%;
     display: flex;
@@ -111,7 +113,6 @@ body {
 }
 
 #cruceta {
-    /* background-color:blue; */
     width: 100px;
     height: 100px;
     display: grid;
@@ -124,11 +125,12 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 4;
     border-radius: 6px;
-    border: 4px outset rgb(33, 33, 33);
+    border: 4px outset rgb(40, 40, 40);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 5px 5px rgb(8, 148, 148);
 }
 
 .triangle {
@@ -145,10 +147,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 6px 0px rgb(8, 149, 149);
 }
 
 #boton {
-    /* background-color: aliceblue; */
     width: 50%;
     height: 100%;
     display: flex;
@@ -198,25 +200,52 @@ body {
 }
 
 .audio-btn {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
 }
 
 .corneta {
-    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 30%;
 }
 
 #select, #start {
     background-color: rgb(46, 46, 46);
-    width: 40px;
-    height: 18px;
-    margin: 3px;
+    width: 38px;
+    height: 12px;
+    margin: 5px;
     border-radius: 40%;
     font-family: sans-serif;
-    font-weight: bold;
-    font-size: 10px;
+    font-weight: 900;
+    font-size: 11px;
     text-align: center;
-    color: rgb(5, 177, 177);
+    color: rgb(26, 135, 135);
     box-shadow: 3px 3px rgb(9, 158, 158);
+    border: 2px outset gray;
+}
+
+#rejilla {
+    height: 70%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    transform: rotate(-6deg);
+}
+
+.corneta-black {
+    background-color: rgb(62, 62, 62);
+    border-radius: 50%;
+    box-shadow: 1px 1px rgb(9, 158, 158);
+}
+
+.corneta-gray {
+    background-color: rgb(72, 125, 130);
+    border-radius: 50%;
+    box-shadow: 1px 1px rgb(9, 158, 158);
+
 }
